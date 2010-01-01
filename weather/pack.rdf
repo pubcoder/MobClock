@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:NC="http://home.netscape.com/NC-rdf#"
+     xmlns:im="http://www.ensolis.com/2005/icon-manager#">
+  
+  <Description about="http://www.ensolis.com/2005/icon-pack/install">
+
+  <!-- information about the pack -->
+  <im:id>default</im:id>
+  <im:name>AccuWeather.com&#174; Iconic (Default)</im:name>
+  <im:version>1.0</im:version>
+  <im:website>http://www.accuweather.com/</im:website>
+  <im:author>AccuWeather.com&#174;</im:author>
+
+  <!-- information about icons -->                
+  <im:target>1.0</im:target>
+  <im:smallWidth NC:parseType="Integer">32</im:smallWidth>
+  <im:smallHeight NC:parseType="Integer">20</im:smallHeight>
+  <im:largeWidth NC:parseType="Integer">64</im:largeWidth>
+  <im:largeHeight NC:parseType="Integer">40</im:largeHeight>
+  
+  <!-- create exemptions for the swa icons -->
+  <im:exemption>
+    <Description>
+      <im:index>swa</im:index>
+      <im:size>small</im:size>
+      <im:width NC:parseType="Integer">15</im:width>
+      <im:height NC:parseType="Integer">15</im:height>    
+    </Description>
+  </im:exemption>
+  
+  <!-- create exemptions for the radar icons -->  
+  <im:exemption>
+    <Description>
+      <im:index>radar</im:index>
+      <im:size>small</im:size>
+      <im:width NC:parseType="Integer">15</im:width>
+      <im:height NC:parseType="Integer">15</im:height>    
+    </Description>
+  </im:exemption>
+  </Description>
+</RDF>

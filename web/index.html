@@ -1,0 +1,45 @@
+<html>
+<head><title>Clock Wallpaper for Sony Ericsson Phones</title></head>
+<body>
+<h1>Clock Wallpaper for Sony Ericsson Phones</h1>
+<p>I've got Sony Ericsson C702 phone and obviously use it as a clock
+  too. However the date and time is shown in a tiny font and is not
+  visible enough. There is no way to customise and fix this, thus
+  instead I made a small Java ME application that displays the current
+  time in large font in a cosy Android theme.</p>
+<h2>Screenshot</h2>
+<a href="MobClock.png">
+<img src="MobClock.png" 
+     title="Java ME clock wallpaper for Sony Ericsson phones"
+     border="0" /></a>
+<h2>Requirements</h2>
+<p>It should be possible to run in stand-alone mode on
+  any JavaME-capable phone, however it's probably only some recent Sony
+  Ericsson phones that have a feature of running JavaME application as
+  a wallpaper. I assume the following configuration:</p>
+<ul>
+<li>Device configuration: <b>CLDC-1.1</b></li>
+<li>Device profile: <b>MIDP-2.0</b></li>
+<li>Screen resolution: <b>240x320</b> (it is possible to change the
+  images inside jar and thus fit the app for other resolutions without
+  changing the code, feel free to hack it)</li>
+<li>A phone that supports <b>SEMC-StandbyApplication: Y</b> (some Sony
+  Ericsson model), look for "Application" option for Wallpaper setting
+  (see Settings-&gt;Display-&gt;Wallpaper).</li>
+</ul>
+<p>The application does not require any special access or permissions,
+  it is self-contained and uses CPU for drawing the screen only
+  upon request (it is completely passive when not showing).</p>
+<h2>Download and Install</h2>
+<p>You need to download <a href="MobClock.jar">MobClock.jar</a> and
+  send it to your phone. I prefer OBEX Push method, but you may try
+  uploading it first and then installing. Upon installation the phone
+  usually suggests to set this application as wallpaper - this is 
+  what I choose. Here is a full set of files you might
+  need:</p>
+<ul>
+<li><a href="MobClock.jad">MobClock.jad</a></li>
+<li><a href="MobClock.jar">MobClock.jar</a></li>
+</ul>
+</body>
+</html>
