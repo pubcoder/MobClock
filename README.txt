@@ -18,3 +18,4 @@ is self-contained and uses CPU for drawing the screen only upon
 request (it is completely passive when not showing).
 
 
+<img src="http://github.com/pubcoder/MobClock/raw/master/DemoSnapshot.jpg" />
